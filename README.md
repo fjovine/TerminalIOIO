@@ -3,14 +3,14 @@ Demo package under AndroidStudio to use the IOIO board as an asynchronous termin
 
 Summary
 -------
-The IOIO board [https://github.com/ytai/ioio](https://github.com/ytai/ioio) is general purpose USB interface 
-board featuring a rich set of features and implemented by means of a powerful blend of software/firmware/hardware 
-completely under OpenSource licence.
+The IOIO board [https://github.com/ytai/ioio](https://github.com/ytai/ioio) is a general purpose USB interface 
+board offering a rich set of feature and implemented by means of a powerful blend of software/firmware/hardware 
+completely OpenSource.
 
-There are many possible uses of this board (please refer to the original documentation by **Ytai Ben-Tsvi**, the author 
-of this project) but most of the examples are projects to be loaded and used under Eclipse.
+There are many possible uses of this board (please refer to the original documentation by **Ytai Ben-Tsvi**, the author
+of the IOIO project) but most of the examples are to be loaded and compiled under Eclipse. This one, on the other side, presents a project directly loadable and compilable under Android Studio.
 
-This project is an android app that uses the UART embedded in a IOIO board to implement a simple terminal app that can 
+It is an android app using the UART embedded in a IOIO board to implement a simple terminal app that can 
 send and receive messages on a serial line.
 
 Set-up
@@ -32,7 +32,7 @@ Therefore, considering that the IOIO firmware supports transparently both the di
 
 ![h2](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/H2.jpg)
 
-
+Note: if the direct USB connection is used, no additional operations are required. If the Bluetooth interface is needed, prior to any possible usage the Bloototh pairing procedure should be followed.
 
 Usage of the app
 ----------------
@@ -40,3 +40,13 @@ Usage of the app
 Once installed, the TerminalIOIO App has a standard icon like the one encircled in the following
 
 ![desktop](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)
+
+Once launched, after a short while, a toast (small dialog box) is shown to prompt the operator.
+The screen contains (from top to bottom)
+* a line where to insert the message to be sent
+* a widget showing the messages sent
+* a widget showing the messages received
+* the android keyboard featuring the "Send" button
+* 
+![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S2.png)
+
