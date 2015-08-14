@@ -16,4 +16,4 @@ send and receive messages on a serial line.
 Usage of the app
 ----------------
 
-![desktop]((https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)
+![desktop](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)
