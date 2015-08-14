@@ -13,9 +13,15 @@ of this project) but most of the examples are projects to be loaded and used und
 This project is an android app that uses the UART embedded in a IOIO board to implement a simple terminal app that can 
 send and receive messages on a serial line.
 
+Set-up
+-----
+
+The experimental set-up used is the following.
+![hardware1](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/H1.png)
+
 Usage of the app
 ----------------
 
-Once installed, the TerminalIOIO App has a sta
+Once installed, the TerminalIOIO App has a standard icon like the one encircled in the following
 
-|![desktop](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)| Icon of the |
+![desktop](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)
