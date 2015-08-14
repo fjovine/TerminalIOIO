@@ -17,7 +17,22 @@ Set-up
 -----
 
 The experimental set-up used is the following.
-![hardware1](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/H1.png)
+The IOIO board is programmed so as 
+* pin 6 of the IOIO board is RX, i.e. receives the serial data
+* pin 7 of the IOIO board is TX, i.e. transmits the serial data
+
+These pins (as stated in the IOIO board documentation) are 5V logic, so they are directly connected to the corresponding pins of a USB->Serial interface. Then tese lines are sent to a PC (linux) and connected to a serial terminal (in this case gkterm under ubuntu 15.04).
+
+The IOIO board is powered through the GND-5V lines and not through the USB connector (white cable to the right)
+
+![h1](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/H1.jpg)
+
+For normal usage, the red cable to the right can be directly connected to the USB connector of the Android device (in this case an Android Tablet). During development this connection is troublesome as the same USB port should be used both as connection for ADB (Android Debugger) and to connect the IOIO board. Theorethically it is possible to route the ADB connection through WiFi, practically this is not simple under Android Studio (currently the development environment officially supported by Google).
+Therefore, considering that the IOIO firmware supports transparently both the direct USB connection to the Android device and the indirect connection through a Bluetooth interface, this latter solution has been used.
+
+![h2](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/H2.jpg)
+
+
 
 Usage of the app
 ----------------
