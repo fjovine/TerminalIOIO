@@ -16,4 +16,6 @@ send and receive messages on a serial line.
 Usage of the app
 ----------------
 
-![desktop](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)
+Once installed, the TerminalIOIO App has a sta
+
+|![desktop](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S1.png)| Icon of the |
