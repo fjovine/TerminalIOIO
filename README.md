@@ -66,6 +66,22 @@ The string is received by the terminal program on linux.
 
 ![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S5.png)
 
+A string is input on the linux side through the terminal.
+
 ![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S6.png)
 
+ When ENTER is pressed, the string is sent to the "Message received" widget.
+ 
 ![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S7.png)
+
+Technical Notes
+---------------
+
+The IOIO board library has not been forked from the IOIO codebase but only the relevant packages are
+included here. This way only the needed classes are used. 
+
+The source code of these classes can be found under `TerminalIOIO/app/src/main/java/ioio` and subfolders.
+
+The application itself is only in the class `it.hilab.androdi.terminalioio.TerminalIOIO` which can be found under `TerminalIOIO/app/src/main/java/it/hilab/android/terminalioio`
+
+The project should be directly loadable, compilable and launchable under Android Studio.
