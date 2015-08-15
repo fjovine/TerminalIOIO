@@ -78,7 +78,7 @@ Technical Notes
 ---------------
 
 The IOIO board library has not been forked from the IOIO codebase but only the relevant packages are
-included here. This way only the needed classes are used. 
+included here. This way only the needed classes are compiled and used and no jar importation is needed. 
 
 The source code of these classes can be found under `TerminalIOIO/app/src/main/java/ioio` and subfolders.
 
