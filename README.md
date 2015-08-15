@@ -53,9 +53,16 @@ The screen contains (from top to bottom)
 
 ![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S2.png)
 
+The top line receives the string to be sent: while inserting nothing happens.
+
 ![SendAndroid](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S3.png)
 
+Once the "Send" button is pressed, the string is sent through the TX line of the UART and is transferred in 
+the "Message sent" widget.
+
 ![ReceiveLinux](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S4.png)
+
+The string is received by the terminal program on linux.
 
 ![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S5.png)
 
