@@ -8,7 +8,7 @@ board offering a rich set of features implemented by means of a powerful blend o
 completely OpenSource.
 
 There are many possible uses of this board (please refer to the original documentation by **Ytai Ben-Tsvi**, the author
-of the IOIO project) but most of the examples are to be loaded and compiled under Eclipse. This one, on the other side, presents a project directly loadable and compilable under Android Studio.
+of the IOIO project) but most of the examples are to be loaded and compiled under Eclipse. This repository, on the other side, presents a project directly loadable and compilable under Android Studio.
 
 It is an android app using the UART embedded in a IOIO board to implement a simple terminal that can 
 send and receive messages on a serial line, useful to test a hardware prototype.
