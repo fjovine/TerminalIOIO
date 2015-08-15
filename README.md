@@ -4,7 +4,7 @@ Demo package under AndroidStudio to use the IOIO board as an asynchronous termin
 Summary
 -------
 The IOIO board [https://github.com/ytai/ioio](https://github.com/ytai/ioio) is a general purpose USB interface 
-board offering a rich set of feature implemented by means of a powerful blend of software/firmware/hardware 
+board offering a rich set of features implemented by means of a powerful blend of software/firmware/hardware 
 completely OpenSource.
 
 There are many possible uses of this board (please refer to the original documentation by **Ytai Ben-Tsvi**, the author
@@ -50,6 +50,15 @@ The screen contains (from top to bottom)
 * a widget showing the messages sent
 * a widget showing the messages received
 * the android keyboard featuring the "Send" button
-* 
+
 ![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S2.png)
 
+![SendAndroid](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S3.png)
+
+![ReceiveLinux](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S4.png)
+
+![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S5.png)
+
+![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S6.png)
+
+![init_toast](https://github.com/fjovine/TerminalIOIO/blob/master/docpics/S7.png)
